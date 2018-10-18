@@ -6,7 +6,7 @@
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: #E3F2FD;
 }
 @media (min-width: 768px) {
   .jumbotron {
@@ -17,7 +17,7 @@
 
 .jumbotron p:last-child {
   margin-bottom: 0;
-}
+} 
 
 .jumbotron-heading {
   font-weight: 300;
@@ -37,3 +37,17 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.card img {
+    filter: grayscale(1);
+    transition: all ease 2s;
+}
+
+.card:hover img{
+    filter: grayscale(0)
+}
+
+.brandcolor
+ {color: #B71C1C}
+}
+
